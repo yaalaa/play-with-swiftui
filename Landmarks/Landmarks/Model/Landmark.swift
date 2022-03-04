@@ -21,7 +21,7 @@ struct Landmark : Hashable, Codable, Identifiable {
         Image(imageName)
     }
     private var coordinates: Coordinates
-    var locationCoordinates: CLLocationCoordinate2D {
+    var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
     }
     struct Coordinates: Hashable, Codable {
