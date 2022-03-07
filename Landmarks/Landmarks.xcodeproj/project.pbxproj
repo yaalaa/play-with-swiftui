@@ -90,6 +90,7 @@
 		DFEFE73E27D6924A00DCB431 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2EAA1C27D4F890001A5020 /* Profile.swift */; };
 		DFEFE73F27D6924A00DCB431 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2EA9EF27D10DF6001A5020 /* LandmarkRow.swift */; };
 		DFEFE74027D6924A00DCB431 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2EAA0727D3DED0001A5020 /* hikeData.json */; };
+		DFEFE74227D693A800DCB431 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFE74127D693A800DCB431 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +247,7 @@
 		DF39D77227D67CCE0070F9F9 /* LandmarksMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF39D77627D67CCE0070F9F9 /* LandmarksMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksMacUITests.swift; sourceTree = "<group>"; };
 		DF39D77827D67CCE0070F9F9 /* LandmarksMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFEFE74127D693A800DCB431 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -550,6 +552,7 @@
 			isa = PBXGroup;
 			children = (
 				DF39D75C27D67CCC0070F9F9 /* ContentView.swift */,
+				DFEFE74127D693A800DCB431 /* LandmarkDetail.swift */,
 				DF39D75E27D67CCD0070F9F9 /* Assets.xcassets */,
 				DF39D76327D67CCD0070F9F9 /* LandmarksMac.entitlements */,
 				DF39D76027D67CCD0070F9F9 /* Preview Content */,
@@ -1029,6 +1032,7 @@
 				DFEFE73E27D6924A00DCB431 /* Profile.swift in Sources */,
 				DFEFE73527D6924A00DCB431 /* MapView.swift in Sources */,
 				DFEFE73D27D6924A00DCB431 /* ModelData.swift in Sources */,
+				DFEFE74227D693A800DCB431 /* LandmarkDetail.swift in Sources */,
 				DFEFE73927D6924A00DCB431 /* CircularImage.swift in Sources */,
 				DFEFE73C27D6924A00DCB431 /* FavoriteButton.swift in Sources */,
 				DFEFE73B27D6924A00DCB431 /* Hike.swift in Sources */,
