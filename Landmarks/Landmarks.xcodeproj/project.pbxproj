@@ -70,6 +70,7 @@
 		DF2EAA8027D64E4B001A5020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2EA9BC27CFAB93001A5020 /* Assets.xcassets */; };
 		DF2EAA8127D64E4B001A5020 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2EA9E827D1061E001A5020 /* Landmark.swift */; };
 		DF2EAA8227D64E4B001A5020 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2EA9B827CFAB92001A5020 /* LandmarksApp.swift */; };
+		DF39D75327D6543D0070F9F9 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39D75227D6543D0070F9F9 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,6 +202,7 @@
 		DF2EAA5E27D64666001A5020 /* LandmarkWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2EAA6227D64666001A5020 /* LandmarkWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkWatchUITests.swift; sourceTree = "<group>"; };
 		DF2EAA6427D64666001A5020 /* LandmarkWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF39D75227D6543D0070F9F9 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +446,7 @@
 				DF2EAA4E27D64666001A5020 /* Info.plist */,
 				DF2EAA4F27D64666001A5020 /* PushNotificationPayload.apns */,
 				DF2EAA4B27D64666001A5020 /* Preview Content */,
+				DF39D75227D6543D0070F9F9 /* LandmarkDetail.swift */,
 			);
 			path = "LandmarkWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -791,6 +794,7 @@
 				DF2EAA4227D64665001A5020 /* ContentView.swift in Sources */,
 				DF2EAA7727D64E4B001A5020 /* MapView.swift in Sources */,
 				DF2EAA7827D64E4B001A5020 /* LandmarksList.swift in Sources */,
+				DF39D75327D6543D0070F9F9 /* LandmarkDetail.swift in Sources */,
 				DF2EAA4827D64665001A5020 /* ComplicationController.swift in Sources */,
 				DF2EAA7B27D64E4B001A5020 /* ModelData.swift in Sources */,
 				DF2EAA7C27D64E4B001A5020 /* Hike.swift in Sources */,
