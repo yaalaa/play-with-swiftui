@@ -33,7 +33,6 @@ struct LandmarksList: View {
                 
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
