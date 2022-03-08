@@ -93,6 +93,7 @@
 		DFEFE74427D69B4300DCB431 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFE74327D69B4300DCB431 /* LandmarkList.swift */; };
 		DFEFE74627D774B900DCB431 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFE74527D774B900DCB431 /* LandmarkCommands.swift */; };
 		DFEFE74727D774B900DCB431 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFE74527D774B900DCB431 /* LandmarkCommands.swift */; };
+		DFEFE74927D7A62C00DCB431 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFE74827D7A62C00DCB431 /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 		DFEFE74127D693A800DCB431 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		DFEFE74327D69B4300DCB431 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DFEFE74527D774B900DCB431 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		DFEFE74827D7A62C00DCB431 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +564,7 @@
 				DF39D75E27D67CCD0070F9F9 /* Assets.xcassets */,
 				DF39D76327D67CCD0070F9F9 /* LandmarksMac.entitlements */,
 				DF39D76027D67CCD0070F9F9 /* Preview Content */,
+				DFEFE74827D7A62C00DCB431 /* LandmarkSettings.swift */,
 			);
 			path = LandmarksMac;
 			sourceTree = "<group>";
@@ -1037,6 +1040,7 @@
 			files = (
 				DF39D75D27D67CCC0070F9F9 /* ContentView.swift in Sources */,
 				DFEFE73E27D6924A00DCB431 /* Profile.swift in Sources */,
+				DFEFE74927D7A62C00DCB431 /* LandmarkSettings.swift in Sources */,
 				DFEFE73527D6924A00DCB431 /* MapView.swift in Sources */,
 				DFEFE73D27D6924A00DCB431 /* ModelData.swift in Sources */,
 				DFEFE74727D774B900DCB431 /* LandmarkCommands.swift in Sources */,

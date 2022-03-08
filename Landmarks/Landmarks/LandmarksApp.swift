@@ -29,5 +29,11 @@ struct LandmarksApp: App {
             category  : "LandmarkNear"
         )
         #endif
+        
+        #if os(macOS)
+        Settings {
+            LandmarkSettings()
+        }
+        #endif
     }
 }
